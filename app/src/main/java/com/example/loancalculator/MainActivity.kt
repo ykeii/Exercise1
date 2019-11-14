@@ -52,9 +52,9 @@ class MainActivity : AppCompatActivity() {
         val interest: Double = (carLoan * input4 * input3)/100
         val monthlyRepay: Double = (carLoan+interest)/input3/12
 
-        textViewLoan.text = "%.2f".format(carLoan)
-        textViewInterest.text = "%.2f".format(interest)
-        textViewMonthlyRepayment.text = "%.2f".format(monthlyRepay)
+        textViewLoan.text = "Car loan is %.2f".format(carLoan)
+        textViewInterest.text = "Interest is %.2f".format(interest)
+        textViewMonthlyRepayment.text = "Monthly repayment is %.2f".format(monthlyRepay)
 
 
 
